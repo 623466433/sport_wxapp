@@ -1,0 +1,37 @@
+.container{
+    padding: 20rpx;
+    font-family: 'PingFang-SC-Medium'
+}
+.store-img{
+    width: 100%;
+}
+.store-wrapper{
+    position: relative;
+}
+.store-wrapper + .store-wrapper{
+    margin-top: 20rpx;
+}
+.store-info{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20rpx;
+    display: flex;
+    font-size: 28rpx;
+    color: #fff;
+    font-weight: normal;
+    background: #333333;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.title view:last-child{
+    margin-top: 10rpx;
+}
+.more{
+    background-color: #FF5100;
+    padding: 20rpx 20rpx 20rpx 30rpx;
+    margin-right: -20rpx;
+    border-radius: 60rpx 0 0 60rpx;
+}

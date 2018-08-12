@@ -1,0 +1,14 @@
+{
+    "usingComponents": {
+        "i-button": "../../lib/dist/button/index",
+        "i-tab-bar": "../../lib/dist/tab-bar/index",
+        "i-tab-bar-item": "../../lib/dist/tab-bar-item/index",
+        "i-cell": "../../lib/dist/cell/index",
+        "i-panel": "../../lib/dist/panel/index",
+        "i-icon": "../../lib/dist/icon/index",
+        "i-switch": "../../lib/dist/switch/index",
+        "i-card": "../../lib/dist/card/index",
+        "i-row": "../../lib/dist/row/index",
+        "i-col": "../../lib/dist/col/index"
+    }
+}

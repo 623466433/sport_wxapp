@@ -1,0 +1,14 @@
+<view class="container">
+    <block wx:key="{{index}}" wx:for="{{imgUrls}}">
+        <view class="store-wrapper">
+            <image class="store-img" mode="widthFix" src="{{item}}" />
+            <view class="store-info">
+                <view class="title">
+                    <view >轻之盈健身</view>
+                    <view >广州市克里斯多夫拉萨的法律</view>
+                </view>
+                <view class="more">查看更多</view>
+            </view>
+        </view>
+    </block>
+</view>

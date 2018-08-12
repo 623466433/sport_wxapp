@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "门店",
+    "usingComponents": {
+        "i-row": "../../lib/dist/row/index",
+        "i-col": "../../lib/dist/col/index"
+    }
+}

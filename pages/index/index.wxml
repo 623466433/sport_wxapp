@@ -1,0 +1,97 @@
+<!--index.wxml-->
+<view class="container">
+    <swiper id="banner" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}">
+      <block wx:key="{{index}}" wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image class="swiper-image" src="{{item}}"/>
+        </swiper-item>
+      </block>
+    </swiper>
+    <i-tab-bar id="tab-bar" current="{{ current }}" bindchange="handleChange">
+        <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage" title="关于我们"></i-tab-bar-item>
+        <i-tab-bar-item key="group" icon="group" current-icon="group_fill" title="免费体验"></i-tab-bar-item>
+        <i-tab-bar-item key="remind" icon="remind" current-icon="remind_fill" title="所有门店"></i-tab-bar-item>
+        <i-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" title="课程预约"></i-tab-bar-item>
+    </i-tab-bar>
+    <i-panel class="cell-panel-demo">
+        <i-cell title="单行列表" is-link value="详细信息"></i-cell>
+    </i-panel>
+    <i-row i-class="course-row light">
+        <i-col span="12" i-class="demo-col">
+          <view class="course-wrap">
+            <image mode="widthFix" src="https://i.loli.net/2017/08/21/599a521472424.jpg" />
+            <text>瑜伽修身</text>
+          </view>
+        </i-col>
+        <i-col span="12" i-class="demo-col">
+          <view class="course-wrap">
+            <image mode="widthFix" src="https://i.loli.net/2017/08/21/599a521472424.jpg" />
+            <text>瑜伽修身</text>
+          </view>
+        </i-col>
+        <i-col span="12" i-class="demo-col">
+          <view class="course-wrap">
+            <image mode="widthFix" src="https://i.loli.net/2017/08/21/599a521472424.jpg" />
+            <text>瑜伽修身</text>
+          </view>
+        </i-col>
+        <i-col span="12" i-class="demo-col">
+          <view class="course-wrap">
+            <image mode="widthFix" src="https://i.loli.net/2017/08/21/599a521472424.jpg" />
+            <text>瑜伽修身</text>
+          </view>
+        </i-col>
+    </i-row>
+    <i-panel class="cell-panel-demo">
+        <i-cell title="教练团队" is-link value="更多"></i-cell>
+    </i-panel>
+    <i-row i-class="teach-row light">
+        <i-col span="24" i-class="demo-col">
+          <view class="teach-wrap">
+            <image mode="widthFix" src="https://i.loli.net/2017/08/21/599a521472424.jpg" />
+            <view >
+              <text>徐家林</text>
+              <text>擅长胸背肌肉训练，增肌减脂</text>
+            </view>
+          </view>
+        </i-col>
+        <i-col span="24" i-class="demo-col">
+          <view class="teach-wrap">
+            <image mode="widthFix" src="https://i.loli.net/2017/08/21/599a521472424.jpg" />
+            <view >
+              <text>徐家林</text>
+              <text>擅长胸背肌肉训练，增肌减脂</text>
+            </view>
+          </view>
+        </i-col>
+        <i-col span="24" i-class="demo-col">
+          <view class="teach-wrap">
+            <image mode="widthFix" src="https://i.loli.net/2017/08/21/599a521472424.jpg" />
+            <view >
+              <text>徐家林</text>
+              <text>擅长胸背肌肉训练，增肌减脂</text>
+            </view>
+          </view>
+        </i-col>
+        <i-col span="24" i-class="demo-col">
+          <view class="teach-wrap">
+            <image mode="widthFix" src="https://i.loli.net/2017/08/21/599a521472424.jpg" />
+            <view >
+              <text>徐家林</text>
+              <text>擅长胸背肌肉训练，增肌减脂</text>
+            </view>
+          </view>
+        </i-col>
+    </i-row>
+    <i-panel class="cell-panel-demo">
+        <i-cell title="会员卡"></i-cell>
+    </i-panel>
+    <view class="member-card">
+      <text class="price">1166<text class="yuan">元</text><text> / </text> </text>
+      <text class="card-type">半年卡</text>
+    </view>
+    <view class="member-card">
+      <text class="price">1166<text class="yuan">元</text><text> / </text> </text>
+      <text class="card-type">年卡</text>
+    </view>
+</view>

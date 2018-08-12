@@ -1,0 +1,74 @@
+.container{
+  background-color: none;
+}
+#banner, #banner image{
+  width: 100%;
+  max-width: 375pt;
+  height: 150pt;
+}
+.cell-panel-demo{
+    display: block;
+    margin-top: 15px;
+}
+.course-row{
+  padding-right: 20rpx;
+  margin-top: 10rpx;
+}
+.course-wrap{
+  text-align: center;
+  font-size: 28rpx;
+  color: #666666;
+  font-family: 'PingFang-SC-Medium';
+  margin-left: 20rpx;
+}
+.course-row image{
+  width: 98%;
+}
+.teach-row{
+  padding: 0 20rpx;
+}
+.teach-row .teach-wrap{
+  display: flex;
+  margin-top: 20rpx;
+}
+.teach-row .teach-wrap image{
+  width: 160rpx;
+  border-radius: 100%;
+}
+.teach-row .teach-wrap view{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #333333;
+  font-size: 32rpx;
+  margin-left: 20rpx;
+}
+.teach-row .teach-wrap view text:last-child{
+  font-size: 28rpx;
+  color: #999999;
+  margin-top: 15rpx;
+}
+.member-card{
+  height: 160rpx;
+  font-size: 40rpx;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+  margin: 0 20rpx;
+  border-radius: 15rpx;
+  padding-left: 50rpx;
+}
+.member-card + .member-card{
+  margin-top: 20rpx;
+}
+.member-card .price{
+  font-size: 50rpx;
+  color: #FF5100;
+}
+.member-card .yuan{
+  font-size: 30rpx;
+}
+.member-card .card-type{
+  color: #fff;
+  margin-left: 10rpx;
+}
