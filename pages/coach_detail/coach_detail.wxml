@@ -1,0 +1,53 @@
+<view class="container">
+    <view class="coach-info">
+        <view class="img">
+            <image mode="widthFix" src="../../img/images/160.png" />
+        </view>
+        <view class="name"><text>徐家林</text></view>
+        <view class="tag">
+            <text>增肌</text>
+            <text>增肌</text>
+            <text>增肌</text>
+        </view>
+    </view>
+
+    <view class="bg">
+        <view>
+            <text class="title">个人相册</text>
+        </view>
+        <view class="ablum">
+            <swiper id="banner" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}">
+                <block wx:key="{{index}}" wx:for="{{imgUrls}}">
+                    <swiper-item>
+                        <image mode="widthFix" class="swiper-image" src="{{item}}"/>
+                    </swiper-item>
+                </block>
+            </swiper>
+            <i-tab-bar id="tab-bar" current="{{ current }}" bindchange="handleChange">
+                <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage" title="关于我们"></i-tab-bar-item>
+                <i-tab-bar-item key="group" icon="group" current-icon="group_fill" title="免费体验"></i-tab-bar-item>
+                <i-tab-bar-item key="remind" icon="remind" current-icon="remind_fill" title="所有门店"></i-tab-bar-item>
+                <i-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" title="课程预约"></i-tab-bar-item>
+            </i-tab-bar>
+        </view>
+    </view>
+
+    <view class="bg">
+        <view>
+            <text class="title">擅长项目</text>
+        </view>
+        <view>
+            <text>胸背肌肉训练，增肌减脂，小团队课程</text>
+        </view>
+    </view>
+
+    <view class="bg">
+        <view>
+            <text class="title">个人简介</text>
+        </view>
+        <view>
+            <text>胸背肌肉训练，增肌减脂，小团队课程胸背肌肉训练，增肌减脂，小团队课程</text>
+        </view>
+    </view>
+    <button class="appointment">约教练</button>
+</view>

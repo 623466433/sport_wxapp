@@ -1,5 +1,5 @@
 {
-    "navigationBarTitleText": "门店",
+    "navigationBarTitleText": "课程签到",
     "usingComponents": {
         "i-row": "../../dist/row/index",
         "i-col": "../../dist/col/index"

@@ -1,0 +1,45 @@
+.container{
+    margin-bottom: 100rpx;
+}
+.container > view + view{
+  background-color: #fff;
+  padding: 20rpx;
+}
+.container > view > text{
+  font-size: 32rpx;
+}
+#banner, #banner image{
+  width: 100%;
+  height: 350rpx;
+}
+.detail-desc{
+  color: #666666;
+}
+.store{
+    display: flex;
+    justify-content: space-between;
+}
+.address{
+    color: #666666;
+}
+.type{
+    padding: 0!important;
+}
+.type-wrapper{
+    color: #ff5100;
+    border-top: 1rpx solid #e5e5e5;
+    border-bottom: 1rpx solid #e5e5e5;
+    margin: 0 20rpx;
+    padding: 20rpx 0;
+}
+.fixed-buy{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #ff5100;
+    color: #fff;
+    border-radius: 0;
+}

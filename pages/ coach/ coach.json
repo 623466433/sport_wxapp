@@ -1,7 +1,8 @@
 {
-    "navigationBarTitleText": "门店",
+    "navigationBarTitleText": "教练",
     "usingComponents": {
         "i-row": "../../dist/row/index",
+        "i-icon": "../../dist/icon/index",
         "i-col": "../../dist/col/index"
     }
 }

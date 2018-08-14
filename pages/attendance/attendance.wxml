@@ -1,0 +1,45 @@
+<view class="container">
+    <view class="header">
+        <view class="order-cources active">团课</view>
+        <view class="order-cources">私教</view>
+    </view>
+    <view class="list-item">
+        <view class="item">
+            <view class="item-title"><text>轻之盈健身</text></view> 
+            <view class="info">
+                <view class="left">
+                    <image mode="widthFix" src="../../img/images/160.png" />
+                    <view class="desc">
+                        <text class="title">瑜伽修身</text>
+                        <text class="teach">教练：徐家林</text>
+                        <text class="date">时间：2018年8月15日</text>
+                        <text class="time">15:30 - 17:00</text>
+                    </view>
+                </view>
+                <view class="right">
+                    <view class="active button">扫码签到</view>
+                </view>
+            </view>
+        </view> 
+        <view class="item">
+            <view class="item-title">
+                <text>轻之盈健身</text>
+                <text class="comming">即将开课</text>
+            </view> 
+            <view class="info">
+                <view class="left">
+                    <image mode="widthFix" src="../../img/images/160.png" />
+                    <view class="desc">
+                        <text class="title">瑜伽修身</text>
+                        <text class="teach">教练：徐家林</text>
+                        <text class="date">时间：2018年8月15日</text>
+                        <text class="time">15:30 - 17:00</text>
+                    </view>
+                </view>
+                <view class="right">
+                    <view class="disable button">扫码签到</view>
+                </view>
+            </view>
+        </view> 
+    </view>
+</view>

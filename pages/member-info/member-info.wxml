@@ -1,0 +1,45 @@
+<view  class="container">
+    <view class="member-header">
+        <view class="member-img">
+            <image mode="widthFix" src="../../img/images/160.png"/>
+        </view> 
+        <view class="member-info">
+            <text class="member-name">奋斗的少年</text>
+            <view class="more-info">
+                <image mode="widthFix" src="../../img/icon/shouji.png" />
+                <text>{{mobile}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="list">
+        <view class="list-item">
+            <text >姓名</text>
+            <view class="username">
+                <input value="{{name}}" />
+                <image mode="widthFix" src="../../img/icon/close.png" />
+            </view>
+        </view>
+        <view class="list-item">
+            <text >性别</text>
+            <view >
+                <text >{{gender}}</text>
+                <i-icon type="enter" size="32" color="#999" />
+            </view>
+        </view>
+        <view class="list-item">
+            <text >体重</text>
+            <input value="{{weight}}" placeholder="请输入体重" />
+        </view>
+        <view class="list-item">
+            <text >身高</text>
+            <input value="{{height}}" placeholder="请输入身高" />
+        </view>
+        <view class="list-item">
+            <text >生日</text>
+            <view >
+                <text >{{birthday}}</text>
+                <i-icon type="enter" size="32" color="#999" />
+            </view>
+        </view>
+    </view>
+</view>

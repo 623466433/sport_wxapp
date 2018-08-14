@@ -1,0 +1,45 @@
+.container{
+    font-size: 28rpx;
+    color: #666666;
+    padding: 20rpx 0;
+}
+.item{
+    background-color: #fff;
+    padding: 0 30rpx;
+}
+.item + .item{
+    margin-top: 20rpx;
+}
+.item .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60rpx;
+    border-bottom: 1rpx solid #e5e5e5;
+}
+.title .status{
+    color: #ff5100;
+}
+.item .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info view{
+    margin-top: 10rpx;
+}
+.info .time{
+    margin-top: 10rpx;
+    margin-bottom: 15rpx;
+}
+.info .right .button{
+    border: 1rpx solid #666661;
+    border-radius: 24rpx;
+    padding: 8rpx 15rpx;
+    font-size: 26rpx;
+    color: #666666;
+}
+.info .right .button.active{
+    color: #ff5100;
+    border-color: #ff5100;
+}

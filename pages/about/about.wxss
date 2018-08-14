@@ -1,0 +1,33 @@
+/* pages/about/about.wxss */
+.container{
+    background-color: #fff;
+    font-size: 26rpx;
+    color: #666666;
+    padding: 0 30rpx;
+    line-height: 1.5;
+}
+.detail-title{
+    color: #333333;
+    font-size: 28rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    margin-bottom: 10rpx;
+}
+.store-info  > view{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.store-info > view > view{
+  display: flex;
+  flex-direction: column;
+  color: #666666;
+}
+.store-title{
+  margin-top: 0!important;
+  color: #ff5100;
+}
+.detail-desc image{
+    margin: 15rpx 0;
+    width: 100%;
+}

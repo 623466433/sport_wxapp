@@ -1,0 +1,62 @@
+/* pages/coach_detail/coach_detail.wxss */
+.container{
+    font-size: 26rpx;
+    padding: 20rpx;
+    padding-bottom: 150rpx;
+}
+.container > view + view{
+    margin-top: 20rpx;
+}
+.coach-info{
+    text-align: center;
+    padding: 40rpx 0 30rpx;
+    background: #fff;
+}
+.coach-info image{
+    width: 160rpx;
+    height: 160rpx;
+    border-radius: 100%;
+}
+.coach-info .name{
+    margin-top: 30rpx;
+    font-size: 36rpx;
+    color: #333;
+    margin-bottom: 30rpx;
+}
+.coach-info .tag text{
+    color: #999999;
+    border: 1px solid #999999;
+    font-size: 24rpx;
+    padding: 5rpx 10rpx;
+}
+.coach-info .tag text + text{
+    margin-left: 20rpx;
+}
+.bg{
+    background-color: #fff;
+    padding: 30rpx 15rpx 20rpx;
+}
+.bg text{
+    font-size: 26rpx;
+    color: #666666;
+}
+.bg .title{
+    font-size: 30rpx;
+    color: #ff5100;
+    padding: 20rpx 0;
+    display: block;
+}
+.bg image{
+    width: 100%;
+}
+.appointment{
+    color: #fff;
+    background-color: #ff5100;
+    height: 90rpx;
+    border: none;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-radius: 0;
+}

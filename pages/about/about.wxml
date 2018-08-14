@@ -1,0 +1,11 @@
+<view class="container">
+    <view class="store-detail">
+        <view class="detail-title">门店简介</view>
+        <view class="detail-desc">
+            <text class="p">健身门店1地处彩世界广场黄金地段，是一家集健身，休闲，娱乐为一体的综合性健身会所。经营面积近2000平方，由武汉英倍斯体育投资管理有限公司全额投资管理。会所引进顶级的器械训练设备及韩国进口的INBODY230身体成份分析仪，常年开设高温瑜珈，韩式汗蒸，时尚舞蹈，少儿培训，减脂塑形，产后恢复等健身项目。</text>
+            <image mode="widthFix" src="../../img/images/jian1.png" />
+            <text class="p">齐备的设备</text>
+            <image mode="widthFix" src="../../img/images/jian1.png" />
+        </view>
+    </view>
+</view>

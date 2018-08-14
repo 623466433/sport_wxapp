@@ -1,0 +1,31 @@
+<view class="container">
+    <view class="item">
+        <view class="title">
+            <text>预约项目</text>
+        </view>
+        <view class="info">
+            <view class="left">
+                <view>瑜伽</view>
+                <view class="time">2018-08-05 15:30-17:00</view>
+            </view>
+            <view class="right">
+                <view class="button active">已预约</view>
+            </view>
+        </view>
+    </view>
+    <view class="item">
+        <view class="title">
+            <text>预约项目</text>
+            <text class="status">预约项目</text>
+        </view>
+        <view class="info">
+            <view class="left">
+                <view>瑜伽</view>
+                <view class="time">2018-08-05 15:30-17:00</view>
+            </view>
+            <view class="right">
+                <view class="button ">已完成</view>
+            </view>
+        </view>
+    </view>
+</view>

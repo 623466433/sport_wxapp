@@ -1,0 +1,47 @@
+/* pages/member/member.wxss */
+.container{
+    color: #666666;
+    font-size: 30rpx;
+    background-color: #f2f2f2;
+}
+.list-item{
+    text-align: center;
+}
+.list-item image{
+    width: 80rpx;
+    margin-bottom: 20rpx;
+}
+.lists{
+    padding: 50rpx 0;
+    background: #fff;
+}
+.member-header{
+    background-color: #fff;
+    margin-bottom: 20rpx;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20rpx 30rpx;
+}
+.member-img image{
+   width: 160rpx; 
+   border-radius: 100%;
+   margin-right: 30rpx;
+}
+.more-info i-icon{
+    margin-top: -5rpx;
+}
+.more-info{
+    height: 44rpx;
+    width: 160rpx;
+    border: 1px solid #666666;
+    border-radius: 22rpx;
+    font-size: 26rpx!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30rpx;
+}
+i-row + i-row image{
+    margin-top: 50rpx;
+}

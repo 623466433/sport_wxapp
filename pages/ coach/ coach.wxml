@@ -1,0 +1,82 @@
+<view class="container">
+    <view class="search">
+        <button><image mode="widthFix" src="../../img/icon/search.png" />搜索</button>
+    </view>
+    <i-row>
+        <i-col span="12" height="100">
+            <view class="wrapper">
+                <text >{{ store ? store : "所有门店"}}</text><i-icon type="unfold" size="32" color="#666666" />
+            </view>
+        </i-col>
+        <i-col span="12" height="100">
+            <view class="wrapper">
+                <text >{{ store ? store : "全部课程"}}</text><i-icon type="unfold" size="32" color="#666666" />
+            </view>
+        </i-col>
+    </i-row>
+
+    <view class="item">
+        <view class="left">
+            <view class="img">
+                <image mode="widthFix" src="../../img/images/160.png"/>
+            </view> 
+            <view class="info">
+                <text class="name">奋斗的少年</text>
+                <view class="tag">
+                    <text>塑性</text>
+                    <text>塑性</text>
+                    <text>塑性</text>
+                </view>
+            </view>
+        </view>
+        <i-icon type="enter" size="50" color="#999999" />
+    </view>
+    <view class="item">
+        <view class="left">
+            <view class="img">
+                <image mode="widthFix" src="../../img/images/160.png"/>
+            </view> 
+            <view class="info">
+                <text class="name">奋斗的少年</text>
+                <view class="tag">
+                    <text>塑性</text>
+                    <text>塑性</text>
+                    <text>塑性</text>
+                </view>
+            </view>
+        </view>
+        <i-icon type="enter" size="50" color="#999999" />
+    </view>
+    <view class="item">
+        <view class="left">
+            <view class="img">
+                <image mode="widthFix" src="../../img/images/160.png"/>
+            </view> 
+            <view class="info">
+                <text class="name">奋斗的少年</text>
+                <view class="tag">
+                    <text>塑性</text>
+                    <text>塑性</text>
+                    <text>塑性</text>
+                </view>
+            </view>
+        </view>
+        <i-icon type="enter" size="50" color="#999999" />
+    </view>
+    <view class="item">
+        <view class="left">
+            <view class="img">
+                <image mode="widthFix" src="../../img/images/160.png"/>
+            </view> 
+            <view class="info">
+                <text class="name">奋斗的少年</text>
+                <view class="tag">
+                    <text>塑性</text>
+                    <text>塑性</text>
+                    <text>塑性</text>
+                </view>
+            </view>
+        </view>
+        <i-icon type="enter" size="50" color="#999999" />
+    </view>
+</view>

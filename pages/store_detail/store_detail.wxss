@@ -1,0 +1,77 @@
+.container > view + view{
+  margin-top: 20rpx;
+  background-color: #fff;
+  padding: 20rpx;
+}
+.container > view > text{
+  font-size: 32rpx;
+}
+.container > view > view{
+  margin-top: 20rpx;
+}
+#banner, #banner image{
+  width: 100%;
+  height: 350rpx;
+}
+.scroll_box{
+  width: 100%;
+  overflow: hidden;
+  padding: 20rpx;
+  background: #fff;
+  white-space: nowrap;
+}
+.item_list{
+  position: relative;
+  margin-right: 23rpx;
+  display: inline-block;
+}
+.item_book_text{
+  position: absolute;
+  top: 40%;
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-size: 40rpx;
+  color: #fff;
+}
+.teacher view {
+  display: flex;
+}
+.teacher > view > view {
+  flex-direction: column;
+  justify-content: center;
+}
+.teacher-info{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  color: #666666;
+}
+.teacher-info text:last-child{
+  font-size: 28rpx;
+  margin-top: 25rpx;
+}
+.teacher > view image{
+  width: 160rpx;
+  border-radius: 100%;
+}
+.detail-desc{
+  color: #666666;
+}
+.store-info  > view{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.store-info > view > view{
+  display: flex;
+  flex-direction: column;
+  color: #666666;
+}
+.store-title{
+  margin-top: 0!important;
+  color: #ff5100;
+}
+.daohang{
+  width: 40rpx;
+  margin-top: 20rpx;
+}

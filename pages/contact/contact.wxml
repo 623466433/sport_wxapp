@@ -1,0 +1,21 @@
+<view class="container">
+    <view class="header-img">
+        <image mode="widthFix" src="../../img/images/ke1.png" />
+    </view>
+    <view class="item-wrapper">
+        <view class="item">
+            <text class="title">联系我们</text>
+        </view>
+        <view class="item">
+            <view><text>联系人：</text>陈经理</view>
+        </view>
+        <view class="item">
+            <view><text> 电 话 ：</text>020-85446659</view>
+            <image mode="widthFix" src="../../img/icon/dianhua.png" />
+        </view>
+        <view class="item">
+            <view ><text> 地 址 ：</text>广州市天河区</view>
+            <image mode="widthFix" src="../../img/icon/dizhi.png" />
+        </view>
+    </view>
+</view>

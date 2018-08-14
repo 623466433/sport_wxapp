@@ -1,0 +1,58 @@
+<view class="container">
+    <view>
+        <swiper id="banner" indicator-dots="{{true}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}">
+        <block wx:key="{{index}}" wx:for="{{imgUrls}}">
+            <swiper-item>
+                <image mode="widthFix" class="swiper-image" src="{{item}}"/>
+            </swiper-item>
+        </block>
+        </swiper>
+    </view>
+
+    <view class="store-title">
+        <text>轻之盈健身</text>
+    </view>
+
+    <view class="store-info">
+        <i-icon type="coordinates" style="display: inline-block;margin-right: 10rpx;" size="20" color="#ff5100" />
+        <text class="address-title">门店地址</text>
+        <view>
+            <view >
+                <text class="address-title">安上了飞机爱丽丝范江岸路</text>
+                <text class="distance">(距离你的位置12.6千米)</text>
+            </view>
+            <view >
+                <image mode="widthFix" src="../../img/icon/daohang.png" class="daohang"/>
+            </view>
+        </view>
+    </view>
+
+    <view class="store-detail">
+        <text class="detail-title">门店简介</text>
+        <view class="detail-desc">
+            <text class="p">健身门店1地处彩世界广场黄金地段，是一家集健身，休闲，娱乐为一体的综合性健身会所。经营面积近2000平方，由武汉英倍斯体育投资管理有限公司全额投资管理。会所引进顶级的器械训练设备及韩国进口的INBODY230身体成份分析仪，常年开设高温瑜珈，韩式汗蒸，时尚舞蹈，少儿培训，减脂塑形，产后恢复等健身项目。</text>
+        </view>
+    </view>
+
+    <view class="teacher">
+        <text class="teacher-title">教练团队</text>
+        <view>
+            <view class="teacher-img">
+                <image mode="widthFix" src="https://i.loli.net/2017/08/21/599a521472424.jpg" /> 
+            </view>
+            <view class="teacher-info">
+                <text class="address-title">徐家林</text>
+                <text class="distance">擅长胸背肌肉训练、增肌减脂</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="scroll_box"> 
+        <scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
+            <view class="item_list" wx:key="{{index}}" wx:for="{{imgUrls}}">
+                <image src="https://i.loli.net/2017/08/21/599a521472424.jpg" style="width: 300rpx" class="item_book_img" mode="widthFix" />
+                <view class="item_book_text">测试数据</view>
+            </view>
+        </scroll-view>
+    </view>
+</view>

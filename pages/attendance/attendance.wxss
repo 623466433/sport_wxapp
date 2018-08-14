@@ -1,0 +1,88 @@
+/* pages/attendance/attendance.wxss */
+.container{
+    color: #333333;
+    font-size: 28rpx;
+    background-color: #f2f2f2;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20rpx 30rpx;
+}
+.header view{
+    width: 50%;
+    border:none;
+    border-color: #ffffff;
+    background-color: #fff;
+    color: #b3b3b3;
+    text-align: center;
+    font-size: 30rpx;
+    line-height: 70rpx;
+    height: 70rpx;
+}
+.header view.active{
+    background-color: #ff5100;
+    color: #fff;
+}
+.header view:first-child{
+    border-radius: 40rpx 0 0 40rpx;
+}
+.header view:last-child{
+    border-radius: 0 40rpx 40rpx 0;
+}
+.item{
+    background-color: #fff;
+    padding: 0 30rpx;
+}
+.item + .item{
+    margin-top: 15rpx;
+}
+.item .item-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 20rpx 0;
+    border-bottom: 1rpx solid #e5e5e5;
+}
+.item .item-title text{
+    font-size: 30rpx;
+    color: #333333;
+    display: block;
+}
+.item .item-title .comming{
+    color: #ff5100;
+}
+.item image{
+    width: 180rpx;
+    height: 180rpx;
+    margin-right: 20rpx;
+}
+.item .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 20rpx 0;
+    align-items: center;
+}
+.item .info .left{
+    display: flex;
+}
+.info .desc{
+    display: flex;
+    flex-direction: column;
+}
+.info .desc text + text{
+    margin-top: 10rpx;
+}
+.info .desc .time{
+    align-self: flex-end;
+}
+.button{
+    font-size: 28rpx;
+    padding: 10rpx 20rpx;
+    color: #f1f1f1;
+    background-color: #b3b3b3;
+    border-radius: 24rpx;
+}
+.button.active{
+    background-color: #ff5100;
+    color: #fff;
+}

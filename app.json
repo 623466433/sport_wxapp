@@ -1,5 +1,15 @@
 {
   "pages": [
+    "pages/cource_plan/cource_plan",
+    "pages/contact/contact",
+    "pages/attendance/attendance",
+    "pages/coach_detail/coach_detail",
+    "pages/ coach/ coach",
+    "pages/about/about",
+    "pages/member-info/member-info",
+    "pages/member/member",
+    "pages/store_detail/store_detail",
+    "pages/cource_detail/cource_detail",
     "pages/store/store",
     "pages/index/index",
     "pages/logs/logs"
